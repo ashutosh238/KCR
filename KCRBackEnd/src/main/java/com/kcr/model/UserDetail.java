@@ -22,6 +22,9 @@ import org.springframework.stereotype.Component;
 @Table(name="USER")
 @Component
 public class UserDetail implements Serializable{
+    public UserDetail(){
+        
+    }
 
 private int seqId;	
 private String name;
@@ -40,9 +43,8 @@ private String address;
     public void setAddress(String address) {
         this.address = address;
     }
-@Id
+
 @GeneratedValue(strategy = GenerationType.AUTO)
-@Column(name = "seqid",unique = true, nullable = false)
 public int getSeqId() {
 	return seqId;
 }
@@ -56,6 +58,7 @@ public String getName() {
 public void setName(String name) {
 	this.name = name;
 }
+@Id
 @Column(name = "emailid")
 public String getEmailId() {
 	return emailId;

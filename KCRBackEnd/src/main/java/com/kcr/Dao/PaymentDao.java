@@ -5,13 +5,12 @@
  */
 package com.kcr.Dao;
 
-import com.kcr.model.UserDetail;
+import com.kcr.model.PaymentDetails;
 
 /**
  *
  * @author sharma
  */
-public interface UserDao {
-    public boolean saveUser(UserDetail user);
-    public UserDetail getUser(String emailId);
+public interface PaymentDao {
+   public boolean savePayment(PaymentDetails payDetails);
 }

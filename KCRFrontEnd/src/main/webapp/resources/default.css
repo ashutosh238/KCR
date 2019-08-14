@@ -1,6 +1,6 @@
 
 .register{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #373C42, #373C42);
     margin-top: 3%;
     padding: 3%;
 }
@@ -129,11 +129,11 @@
 .login-form-1 .btnSubmit{
     font-weight: 600;
     color: #fff;
-    background-color: #0062cc;
+    background-color: #373C42;;
 }
 .login-form-2 .btnSubmit{
     font-weight: 600;
-    color: #0062cc;
+    color: #373C42;;
     background-color: #fff;
 }
 .login-form-2 .ForgetPwd{
@@ -142,7 +142,7 @@
     text-decoration: none;
 }
 .login-form-1 .ForgetPwd{
-    color: #0062cc;
+    color: #373C42;;
     font-weight: 600;
     text-decoration: none;
 }
@@ -173,7 +173,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color: DodgerBlue;
+  background-color: #373C42;
   color: #fff;
   cursor: pointer;
 }
@@ -257,4 +257,12 @@ input[type=submit] {
     border-top: 0;
     transform: rotate(270deg);
     z-index:999;
+}
+.login{
+    float: left;
+    margin: 51px 430px;
+    width: 807px;
+}
+.navmargin{
+    margin-top: -37px;
 }

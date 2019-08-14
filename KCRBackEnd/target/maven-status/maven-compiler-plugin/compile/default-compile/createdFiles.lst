@@ -1,5 +1,11 @@
 com/kcr/DaoImpl/UserDaoImpl.class
-com/kcr/Dao/UserDao.class
+com/kcr/model/Suggestion.class
+com/kcr/DaoImpl/SuggestionDaoImpl.class
+com/kcr/DaoImpl/PaymentDetailDaoImpl.class
 com/kcr/model/UserDetail.class
+com/kcr/Dao/SuggestionDao.class
+com/kcr/model/PaymentDetails.class
+com/kcr/Dao/PaymentDao.class
+com/kcr/Dao/UserDao.class
 com/kcr/Config/AppConfig.class
 com/kcr/Config/RepositoryConfig.class

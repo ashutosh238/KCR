@@ -28,7 +28,7 @@ public class userTest {
                 userDAO = (UserDao)context.getBean("userDAO");
                 System.out.println("dkfhisodhfiosdhfo");
         }
-        @Test
+        
         public void save(){
            UserDetail user=new UserDetail();
             user.setEmailId("avfdvfc@vvvvxvxvgmail.com");

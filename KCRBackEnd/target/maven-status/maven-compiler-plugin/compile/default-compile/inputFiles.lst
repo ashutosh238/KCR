@@ -1,5 +1,11 @@
 /home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/DaoImpl/UserDaoImpl.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/model/PaymentDetails.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/Dao/PaymentDao.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/DaoImpl/PaymentDetailDaoImpl.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/model/Suggestion.java
 /home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/Config/RepositoryConfig.java
 /home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/Dao/UserDao.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/Dao/SuggestionDao.java
 /home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/model/UserDetail.java
 /home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/Config/AppConfig.java
+/home/sharma/RProject/KCRBackEnd/src/main/java/com/kcr/DaoImpl/SuggestionDaoImpl.java

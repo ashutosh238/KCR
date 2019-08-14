@@ -35,10 +35,9 @@ public class HomeController {
 	public ModelAndView homePage()
 	{
             ModelAndView mv = new ModelAndView("home");
-			         System.out.println("dihfuiobvionvgiofbnotinbfgmnbkfsb;lm;lfdb");
 		//categories should be available in all resources
 		//httpSession.setAttribute("categories", categories);
-		return mv;
+                return mv;
 		
 			
 	}
@@ -61,10 +60,13 @@ public class HomeController {
 		
 		return mv;
 	}
-	
-		
-		
-		@PostMapping("/save")
+        @GetMapping("/login")
+        public ModelAndView login(){
+            ModelAndView mv =new ModelAndView("home");
+            mv.addObject("isUserClickedLogin",true);
+            return mv;
+        }
+        @PostMapping("/save")
 		public ModelAndView saveUser(
 				@RequestParam String emailid, 
 				@RequestParam String firstname,

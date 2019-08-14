@@ -5,13 +5,12 @@
  */
 package com.kcr.Dao;
 
-import com.kcr.model.UserDetail;
+import com.kcr.model.Suggestion;
 
 /**
  *
  * @author sharma
  */
-public interface UserDao {
-    public boolean saveUser(UserDetail user);
-    public UserDetail getUser(String emailId);
+public interface SuggestionDao {
+    public boolean saveSuggestion(Suggestion suggestion);
 }

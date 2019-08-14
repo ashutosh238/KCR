@@ -5,37 +5,32 @@
  */
 package com.kcr.DaoImpl;
 
-import com.kcr.Dao.UserDao;
-import com.kcr.model.UserDetail;
+import com.kcr.model.PaymentDetails;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+import com.kcr.Dao.PaymentDao;
 
 /**
  *
  * @author sharma
  */
-@Repository("userDAO")
+@Repository("paymentDAO")
 @Transactional
-public class UserDaoImpl implements UserDao {
+public class PaymentDetailDaoImpl implements PaymentDao{
 
     @Autowired
-    private SessionFactory sessionFactory;
-
+    SessionFactory sessionFactory;
     @Override
-    public boolean saveUser(UserDetail user) {
+    public boolean savePayment(PaymentDetails payDetails) {
         try {
-            sessionFactory.getCurrentSession().save(user);
+            sessionFactory.getCurrentSession().save(payDetails);
         } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
         return true;
     }
-
-    @Override
-    public UserDetail getUser(String emailId) {
-        return (UserDetail) sessionFactory.getCurrentSession().get(UserDetail.class, emailId);
-    }
+    
 }
